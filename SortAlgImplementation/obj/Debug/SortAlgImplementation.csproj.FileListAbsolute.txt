@@ -4,3 +4,6 @@
 \\mi\dfs\users\mmartell\documents\visual studio 2013\Projects\SortAlgImplementation\SortAlgImplementation\obj\Debug\SortAlgImplementation.csprojResolveAssemblyReference.cache
 \\mi\dfs\users\mmartell\documents\visual studio 2013\Projects\SortAlgImplementation\SortAlgImplementation\obj\Debug\SortAlgImplementation.exe
 \\mi\dfs\users\mmartell\documents\visual studio 2013\Projects\SortAlgImplementation\SortAlgImplementation\obj\Debug\SortAlgImplementation.pdb
+\\Mi\dfs\Users\MMartell\Desktop\GitHub\SortAlgImplementation\SortAlgImplementation\bin\Debug\SortAlgImplementation.exe.config
+\\Mi\dfs\Users\MMartell\Desktop\GitHub\SortAlgImplementation\SortAlgImplementation\obj\Debug\SortAlgImplementation.exe
+\\Mi\dfs\Users\MMartell\Desktop\GitHub\SortAlgImplementation\SortAlgImplementation\obj\Debug\SortAlgImplementation.pdb

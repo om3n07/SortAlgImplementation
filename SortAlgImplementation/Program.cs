@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace SortAlgImplementation
 {
@@ -6,18 +7,20 @@ namespace SortAlgImplementation
     {
         static void Main(string[] args)
         {
-            var testArray = new[] {12, 22, 100, 39, 5, 93, 3, 4, 6, 0};
-            
+            var testArray = new[] { 12, 22, 100, 39, 5, 93, 3, 4, 6, 0 };
+
             Console.WriteLine("Press any key to begin...");
             Console.ReadKey();
 
-            var timeStart = DateTime.Now;
-            var sorted = testArray;//Sort(testArray);
-            var timeEnd = DateTime.Now;
+            var stopWatch = new Stopwatch();
 
-            Console.WriteLine("Time to sort: " + (timeStart - timeEnd)+"\n");
+            stopWatch.Start();
+            var sorted = Sort(testArray);
+            stopWatch.Stop();
 
-            for (var i = 0; i< sorted.Length; i++)
+            Console.WriteLine("\n\nTime to sort: " + (stopWatch.ElapsedMilliseconds) + "ms\n");
+
+            for (var i = 0; i < sorted.Length; i++)
             {
                 if (i == (sorted.Length - 1)) Console.Write(sorted[i]);
                 else Console.Write(sorted[i] + ", ");
@@ -28,13 +31,13 @@ namespace SortAlgImplementation
         }
 
         /// <summary>
-        /// Sort your code Here
+        /// your code Here
         /// </summary>
         /// <param name="arr"></param>
         /// <returns></returns>
         private static int[] Sort(int[] arr)
         {
-            throw new NotImplementedException();
+            return arr;
         }
     }
 }
